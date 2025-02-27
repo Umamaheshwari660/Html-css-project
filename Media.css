@@ -1,0 +1,142 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .ALEX {
+    margin: 30px 0 0;
+    font-size: 30px;
+  }
+  .child {
+    position: relative;
+    top: -100px;
+  }
+
+  .content p {
+    font-size: 3rem;
+  }
+
+  .content span {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 907px) {
+  .child {
+    flex-wrap: wrap;
+    top: -80px;
+  }
+
+  .ALEX p {
+    font-size: 1rem;
+  }
+
+  .content p {
+    font-size: 2.5rem;
+  }
+
+  .content span {
+    font-size: 1.5rem;
+  }
+  .content {
+    margin-left: 25px;
+  }
+ 
+}
+
+@media (max-width: 639px) {
+  .ALEX h2 {
+    font-size: 1.8rem;
+  }
+  .child {
+    top: -90px;
+  }
+
+  .all ,.art,.commercial,.design,.misc,.photography,.tech{
+    border: 2px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .mockup{
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .content p {
+    font-size: 1.5rem;
+  }
+
+  .content span {
+    font-size: 1rem;
+  }
+  .content {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .child {
+    top: -70px;
+  }
+  .child a {
+    padding: 5px 10px;
+  }
+  .content p {
+    font-size: 2.5rem;
+  }
+
+  .content span {
+    font-size: 1rem;
+  }
+  .content {
+    margin-left: 15px;
+  }
+
+  .icons {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 435px) {
+  .ALEX h2 {
+    font-size: 1.5rem;
+  }
+
+  .child a {
+    padding: 5px 10px;
+  }
+
+  .child {
+    position: relative;
+    top: -85px;
+    gap: 6px;
+  }
+  .content p {
+    font-size: 1.2rem;
+  }
+  .content {
+    margin-left: 10px;
+  }
+
+  .content span {
+    font-size: 0.98rem;
+  }
+
+  .humberger {
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 280px) {
+  .ALEX p {
+    font-size: 0.78rem;
+  }
+
+  .icons {
+    padding-left: 20px;
+  }
+
+  .humberger {
+    padding-right: 25px;
+  }
+}
